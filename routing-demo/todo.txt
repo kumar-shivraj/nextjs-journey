@@ -1,0 +1,15 @@
+=============================   scenario 1 : root route("/")    ==================================
+*   delete/rename the app directory inside src folder as we are going to create it manually
+*   create the app directory inside src folder
+*   create page.tsx file inside app folder
+*   create a React component named as Home
+*   Now, application might have crashed because we deleted the app directory.
+    So, stop the application and start again
+*   It should reder that Home component at root route("/")
+
+*   Notice  :   layout.tsx was earlier present inside app directory, but we didn't create it now.
+                When we first access the root route("/"), this layout.tsx is automatically created.
+
+==================================================================================================
+
+
