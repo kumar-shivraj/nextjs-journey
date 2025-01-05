@@ -12,4 +12,19 @@
 
 ==================================================================================================
 
+========================   scenario 2 : two additional routes("/about" and "/profile")    ========================
+*   create a new folder called about inside app folder.
+*   inside this about folder, create a page.tsx file.
+*   from this file, default export the react component
+*   now "/about" route is created. Do the above 3 steps for the "/profile" route as well.
 
+
+*   So, here we can conclude that routes are directly tied with the folder name inside the app directory.
+*   In case, someone tries to access the url that doesn't match any file inside the app folder.
+    *   let's say someone tries to access "/dashboard" route.
+    *   In this case, nextjs will automatically serve 404 response. 
+    *   We don't need to write any special code to handle this non existing routes.
+
+*   Here we understood that we don't need to mess around when installing and configuring the router in our code.
+*   Our file and folder structures does all the heavy lifting.
+==================================================================================================================
