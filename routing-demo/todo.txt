@@ -28,3 +28,16 @@
 *   Here we understood that we don't need to mess around when installing and configuring the router in our code.
 *   Our file and folder structures does all the heavy lifting.
 ==================================================================================================================
+
+=========================================   scenario 3 : nested routes    ========================================
+*   in this scenario, we will cover nested routes ("/blog", "/blog/first", "/blog/second")
+*   create a blog folder inside app directory
+*   inside this blog folder create page.tsx file and export a default react component from this.
+*   "/blog" route is created successfully.
+
+*   create two folder("first" and "second") inside this blog folder.
+*   create page.tsx inside each these two folder and export a default react component from this.
+*   "/blog/first" and "/blog/second" route is created successfully now.
+
+*   Here we understood that next js mirrors the folder structure into the urls automatically
+==================================================================================================================
